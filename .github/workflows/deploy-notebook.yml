@@ -20,8 +20,8 @@ jobs:
       run: |
         ORIGIN_HOST=${{ secrets.DATABRICKS_ORIGIN_HOST }}
         ORIGIN_TOKEN=${{ secrets.DATABRICKS_ORIGIN_TOKEN }}
-        NOTEBOOK_BASE="/Workspace/Users/frsmartdata2605@outlook.com/CICDSSMARTDATA0406/clase"
-        NOTEBOOKS=("clase" )  # Agrega más según necesitesas
+        NOTEBOOK_BASE="/Workspace/Users/frsmartdata2605@outlook.com/CICDSSMARTDATA0406/cicd_clase"
+        NOTEBOOKS=("cicd_clase" )  # Agrega más según necesitesas
 
         mkdir -p notebooks_to_deploy
 
